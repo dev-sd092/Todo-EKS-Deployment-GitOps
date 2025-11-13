@@ -48,7 +48,7 @@ jobs:
             git config --global user.name "circleci"
             git add deployment.yaml
             git commit -m "Update image tag to ${CIRCLE_SHA1}"
-            git push https://$GITHUB_TOKEN@github.com/sanketdesai09/todoapp-manifests.git HEAD:main
+            git push https://$GITHUB_TOKEN@github.com/dev-sd092/Todo-EKS-Deployment-GitOps-k8s-manifests.git HEAD:main
 
 workflows:
   version: 2
