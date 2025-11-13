@@ -9,6 +9,8 @@ jobs:
       MANIFEST_REPO: "https://github.com/dev-sd092/Todo-EKS-Deployment-GitOps-k8s-manifests.git"
     steps:
       - checkout
+      - setup_remote_docker
+
 
       # Step 1: Build Docker image
       - run:
