@@ -15,6 +15,7 @@ jobs:
           name: Build Docker image
           command: |
             echo "Building Docker image..."
+            cd Appcode
             docker build -t $IMAGE_NAME:${CIRCLE_SHA1} .
 
       # Step 2: Login to DockerHub
@@ -34,7 +35,6 @@ jobs:
           name: Clone manifests repo
           command: |
             git clone $MANIFEST_REPO manifests
-            cd manifests
 
       # Step 5: Update image tag in deployment.yaml
       - run:
