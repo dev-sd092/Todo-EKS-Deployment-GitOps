@@ -199,6 +199,18 @@ kubectl patch svc argocd-server -n argocd -p '{
 
 ---
 
+### 6. Running Application
+
+- Before adding tasks
+
+<img width="1919" height="519" alt="Screenshot 2025-11-13 132105" src="https://github.com/user-attachments/assets/e1f6c846-7334-4612-99b6-50e09fa3d292" />
+
+- After adding tasks
+
+<img width="1917" height="553" alt="Screenshot 2025-11-13 132141" src="https://github.com/user-attachments/assets/c6b75213-9cb3-44e5-a2f2-ba30f71819a8" />
+
+---
+
 ## 👤 Author
 - Sanket Desai – *DevOps & AWS Engineer*
 - GitOps | Kubernetes | Terraform | AWS | CI/CD | Cloud Infrastructure
