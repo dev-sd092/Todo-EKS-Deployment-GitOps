@@ -56,7 +56,7 @@ eks-infra/
 terraform init
 
 ### 2️⃣ Validate and Plan
-terraform validate
+terraform validate && 
 terraform plan
 
 ### 3️⃣ Apply Configuration
@@ -71,7 +71,7 @@ kubectl get nodes
 
 ### 🧰 Key Configurations
 | Component | Description |
-| ......... | ........... |
+| --------- | ----------- |
 | Region | us-east-1 |
 | Cluster Name | todo-eks-cluster |
 | Instance Type | t2.medium |
